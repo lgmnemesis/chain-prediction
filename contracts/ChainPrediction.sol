@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 
 /** 
-    Cardano to #1
+    Cardano going to #1
     Github: https://github.com/lgmnemesis
     Email: lgm@nemesis.co.il
 */
@@ -99,6 +99,7 @@ contract ChainPrediction {
             for (uint256 _winner = 0; _winner < winners.length; _winner++) {
                 if (i == winners[_winner]) {
                     itsAWinner = true;
+                    break;
                 }
             }
             if (itsAWinner == false) {
